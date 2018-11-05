@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* list-style: none; */
+}
+.wrapper{
+   position: relative;
+   width: 100vw;
+   border: 1px solid #000;
+}
+.title{
+    position: absolute;
+    top: 5vh;
+    left: 30%
+}
+.content{
+    position: absolute;
+    top: 12vh;
+    left: 12vw;
+    font-size: 20px;
+    width: 80%;
+}
+.side{
+    position: absolute;
+    bottom: -5vh;
+    left: 0vw;
+}
+.input{
+    border: 1px solid #cccccc;
+    width: 60vw;
+    position: absolute;
+    bottom: -4.1vh;
+    right: 0;
+}
+button{
+    width: 20vw;
+    height: 5vh;
+    background-color: #2f79b8;
+    color: #fff;
+    position: absolute;
+    bottom: -12vh;
+    right: 0;
+}
